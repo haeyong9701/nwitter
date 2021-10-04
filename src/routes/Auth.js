@@ -35,14 +35,14 @@ const Auth = () => {
         style={{ marginBottom: 30 }}
       />{" "}
       <AuthForm />
-      <div className="authBtns">
+      {/* <div className="authBtns">
         <button onClick={onSocialClick} name="google" className="authBtn">
           Continue with Google <FontAwesomeIcon icon={faGoogle} />
         </button>
         <button onClick={onSocialClick} name="github" className="authBtn">
           Continue with Github <FontAwesomeIcon icon={faGithub} />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
